@@ -28,14 +28,20 @@ div.tab button.active{
     border-top: 0;
 }
 
-body{
-
+#su {
+}
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #wrapper{
     width: 600px;
     margin: 0 auto;
     padding: 10px 0;
+
 
 
 

@@ -35,11 +35,12 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #wrapper{
     width: 600px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding: 10px 0;
 
 

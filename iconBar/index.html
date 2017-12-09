@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IconBar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").click(
+                function () {
+                    // alert("click!")
+                    $("a[class='active']").removeClass("active");
+                    $(this).addClass("active");
+                }
+            )
+        })
+
+    </script>
+</head>
+<body>
+<div class="icon-bar">
+    <a class="active" href="javascript:;">
+        <i class="fa fa-home"></i>
+    </a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fa fa-trash"></i></a>
+</div>
+</body>
+</html>
